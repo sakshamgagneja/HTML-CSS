@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black; 
+             color: white; 
+             display: flex; 
+             justify-content: center; 
+             align-items: center; 
+             height: 100vh; 
+             margin: 0; 
+             flex-direction: column;">
+
+<div style="border: 1px solid white;
+            border-radius: 10px;
+            padding: 20px;">    
+
+<ul style="list-style: none; padding: 0;">
+        <li>
+             <label for="username">Username :</label>
+            <input 
+             style="border: 1px solid white; background-color: black; color: white; text-align: center; border-radius: 10px; width:150px;" 
+             type="text"
+             id="username"
+             placeholder="Type Username"
+             minlength="10"
+             maxlength="15"
+             required>
+        </li>
+
+        <br>
+
+        <li>
+             <label for="password">Password :</label>
+            <input 
+             style="border: 1px solid white; background-color: black; color: white; text-align: center; border-radius: 10px; width:150px;" 
+             type="password"
+             id="password"
+             placeholder="Type Password"
+             minlength="10"
+             maxlength="15"
+             required>
+        </li>
+
+        <br>
+
+        <li>
+             <label for="email">Email :</label>
+            <input 
+             style="border: 1px solid white; background-color: black; color: white; text-align: center; border-radius: 10px; width:150px;" 
+             type="email"
+             id="email"
+             placeholder="Type Email"
+             minlength="10"
+             maxlength="15"
+             required>
+        </li>
+
+        <br>
+
+        <li>
+             <label for="phone">Phone :</label>
+            <input 
+             style="border: 1px solid white; background-color: black; color: white; text-align: center; border-radius: 10px; width:150px;" 
+             type="tel"
+             id="phone"
+             placeholder="Type Phone"
+             minlength="10"
+             maxlength="15"
+             required>
+        </li>
+
+        <br>
+
+        <li>
+             <label for="bday">Birth Date :</label>
+            <input 
+             style="border: 1px solid white; background-color: black; color: white; text-align: center; border-radius: 10px; width:150px;" 
+             type="date"
+             id="bday"
+             required>
+        </li>
+
+        <br>
+
+        <li>
+             <label for="quantity">Quantity :</label>
+            <input 
+             style="border: 1px solid white; background-color: black; color: white; text-align: center; border-radius: 10px; width:150px;" 
+             type="number"
+             id="quantity"
+             placeholder="Enter Quantity"
+             required>
+        </li>
+
+        <br>
+
+        <li>
+            <label for="Mr.">Mr. :</label>
+            <input 
+             style="border: 1px solid white; background-color: black; color: white; text-align: center; border-radius: 10px;" 
+             type="radio"
+             value="Mr."
+             id="Mr."
+             name="title"
+             >
+
+             <label for="Ms.">Ms. :</label>
+            <input 
+             style="border: 1px solid white; background-color: black; color: white; text-align: center; border-radius: 10px;" 
+             type="radio"
+             value="Ms."
+             id="Ms."
+             name="title"
+             >
+
+             <label for="Mrs.">Mrs. :</label>
+            <input 
+             style="border: 1px solid white; background-color: black; color: white; text-align: center; border-radius: 10px;" 
+             type="radio"
+             value="Mrs."
+             id="Mrs."
+             name="title"
+             >
+        </li>
+
+        <br>
+
+        <li>
+            <label for="payment">Payment :</label>
+          <select id="payment" style="background-color: black; color: white; border: 1px solid white; border-radius: 10px;">
+          <option value="Visa">Visa</option>
+          <option value="Mastercard">Mastercard</option>
+          <option value="Amex">Amex</option>
+            </select>
+
+        </li>
+
+        <br>
+
+         <li>
+            <label for="Subscribe">Subscribe:</label>
+            <input
+            style="background-color: black; color: white; border-color: white;" 
+            type="checkbox">
+
+        </li>
+
+        <br>
+
+         <li>
+            <label for="comment">Comment :</label>
+            <textarea style="background-color: black; color: white; border-radius: 10px;"
+             id="comment" rows="2" cols="25"></textarea>
+
+        </li>
+
+        <br>
+
+        <li>
+            <label for="file">File :</label>
+            <input type="file" id="file" accept="image/jpg,image/png">
+
+        </li>
+</ul>
+
+        <form align="center" action="index.php" method="post">
+
+
+        <br>
+        
+        <input style="background-color: black; color: white; border-color: white; border-radius: 10px; height: 30px; width: 100px;" 
+               type="submit" 
+               value="Submit"
+               id="submit">
+
+        <br>
+        <br>
+
+        <input style="background-color: black; color: white; border-color: white; border-radius: 10px;height: 30px; width: 100px;" 
+               type="reset" 
+               value="Reset"
+               id="rest">
+
+            </form>
+
+</div>
+
+</div>
+
+</body>
+</html>
